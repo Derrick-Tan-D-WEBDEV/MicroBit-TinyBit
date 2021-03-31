@@ -1,4 +1,5 @@
 let distance = 0
+Tinybit.RGB_Car_Program().showColor(neopixel.colors(NeoPixelColors.Orange))
 Tinybit.RGB_Car_Big(Tinybit.enColor.Cyan)
 basic.forever(function () {
     distance = Tinybit.Ultrasonic_Car()
